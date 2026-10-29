@@ -1,0 +1,414 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Opportunity Atlas//Radar Global 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Opportunity Atlas - Personal Radar
+BEGIN:VTIMEZONE
+TZID:America/Panama
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+DTSTART:19700308T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19701101T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:radar-a1@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:SIC — Live class (Samsung Innovation Campus)
+DTSTART;TZID=America/Panama:20261029T190000
+DTEND;TZID=America/Panama:20261029T210000
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH
+STATUS:CONFIRMED
+URL:https://meet.google.com/txv-niyj-qog
+DESCRIPTION:Status: In progress\nAsynchronous classes and quizzes: https:/
+ /lms.sicvirtual.org/\nLive class Google Meet: https://meet.google.com/txv
+ -niyj-qog\nCourse end date not provided\; this recurring series has no en
+ d.\nhttps://meet.google.com/txv-niyj-qog\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:SIC — Live class (Samsung Innovation Campus)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-a2@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:SIC — Tutoring (Samsung Innovation Campus)
+DTSTART;TZID=America/Panama:20261031T090000
+DTEND;TZID=America/Panama:20261031T110000
+RRULE:FREQ=WEEKLY;BYDAY=SA
+STATUS:CONFIRMED
+URL:https://meet.google.com/okb-esge-gnp
+DESCRIPTION:Status: In progress\nGoogle Meet: https://meet.google.com/okb-
+ esge-gnp\nCourse end date not provided\; this recurring series has no end
+ .\nhttps://meet.google.com/okb-esge-gnp\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:SIC — Tutoring (Samsung Innovation Campus)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-a3@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:中文 — Mandarin Chinese for Beginners (CAPA NoVA)
+DTSTART;TZID=America/New_York:20261031T123000
+DTEND;TZID=America/New_York:20261031T133000
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20261219T235959Z
+STATUS:CONFIRMED
+URL:https://zoom.us/j/9049835892?pwd=eWdJYXU1Y3JlQ2FtUUtMSjNZY3hIQT09
+DESCRIPTION:Status: Enrolled\nZoom ID: 904 983 5892 · Passcode: CAPA\nCou
+ rse: https://capanova.org/start-speaking-mandarin-chinese-this-fall-with-
+ capa-nova/\nContact: Jennifer Xu · jxu1997@gmail.com\nUS Eastern time: 1
+ 2:30–13:30. Panama: Oct 31 11:30–12:30\; Nov 7 onwards 12:30–13:30.
+ \nhttps://zoom.us/j/9049835892?pwd=eWdJYXU1Y3JlQ2FtUUtMSjNZY3hIQT09\nRada
+ r Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:中文 — Mandarin Chinese for Beginners (CAPA NoVA)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b1@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:DEADLINE — Jiangnan University AI Winter School
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+STATUS:CONFIRMED
+URL:https://ai.jiangnan.edu.cn/info/1022/2560.htm
+DESCRIPTION:Status: To apply · Not submitted\nSend application to zuanwan
+ g@jiangnan.edu.cn. Programme Dec 7–20\, 2026 in Wuxi\, China. Do not ma
+ rk as submitted.\nhttps://ai.jiangnan.edu.cn/info/1022/2560.htm\nRadar Gl
+ obal · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:DEADLINE — Jiangnan University AI Winter School
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DEADLINE — Jiangnan University AI Winter School
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b2@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:HackUTD: Zero Day 2026 — Dallas (tentative)
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261109
+STATUS:TENTATIVE
+LOCATION:Dallas\, Texas
+DESCRIPTION:Status: Submitted · Admission pending\nVerify travel and acco
+ mmodation support before attending. Status as written in Radar Global on 
+ Oct 29\, 2026.\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:HackUTD: Zero Day 2026 — Dallas
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b3@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:RESULT — AAAI-27 Undergraduate Consortium
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+STATUS:CONFIRMED
+DESCRIPTION:Status: Submitted · #52\nDecision notification announced for 
+ Nov 9\, 2026.\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:RESULT — AAAI-27 Undergraduate Consortium
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b4@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:DEADLINE — IAPR/IEEE Winter School on Biometrics early rate
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+STATUS:CONFIRMED
+URL:https://www.comp.hkbu.edu.hk/wsb2027/reg.php?reg=reg
+DESCRIPTION:Status: Considering\nStudent fee ¥4\,500 until Nov 30\, 2026\
+ ; ¥5\,500 thereafter.\nhttps://www.comp.hkbu.edu.hk/wsb2027/reg.php?reg=
+ reg\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:DEADLINE — IAPR/IEEE Winter School on Biometrics early rate
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DEADLINE — IAPR/IEEE Winter School on Biometrics early rate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b5@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:Jiangnan University AI Winter School — Wuxi (tentative)
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261221
+STATUS:TENTATIVE
+URL:https://ai.jiangnan.edu.cn/info/1022/2560.htm
+LOCATION:Wuxi\, China
+DESCRIPTION:Status: Only if applied and accepted\nhttps://ai.jiangnan.edu.
+ cn/info/1022/2560.htm\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Jiangnan University AI Winter School — Wuxi
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b6@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:DEADLINE — CSTIC 2027 final paper (tentative)
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+STATUS:TENTATIVE
+URL:https://www.semiconchina.org/en/6
+DESCRIPTION:Status: Submitted abstract · Conditional on acceptance\nFinal
+  paper only if accepted. Notification may be Nov 1 or Nov 15\, 2026\; no 
+ separate result event because no single confirmed date.\nhttps://www.semi
+ conchina.org/en/6\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:DEADLINE — CSTIC 2027 final paper
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DEADLINE — CSTIC 2027 final paper
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b7@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:Hack Canada 2027 — University of Toronto (tentative)
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270111
+STATUS:TENTATIVE
+URL:https://hackcanada.org/
+LOCATION:Toronto\, Canada
+DESCRIPTION:Status: Submitted · Admission pending\nDo not buy flights bef
+ ore acceptance and travel support are confirmed.\nhttps://hackcanada.org/
+ \nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:Hack Canada 2027 — University of Toronto
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b8@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:IAPR/IEEE Winter School on Biometrics 2027 — Shenzhen (tentative
+ )
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270122
+STATUS:TENTATIVE
+URL:https://www.comp.hkbu.edu.hk/wsb2027/reg.php?reg=reg
+LOCATION:Shenzhen\, China
+DESCRIPTION:Status: Considering\nhttps://www.comp.hkbu.edu.hk/wsb2027/reg.
+ php?reg=reg\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:IAPR/IEEE Winter School on Biometrics 2027 — Shenzhen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b9@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:DEADLINE — DVCon China 2027 abstract
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+STATUS:CONFIRMED
+URL:https://www.dvcon-china.org/Data/List/CallForAbstracts
+DESCRIPTION:Status: Considering\nAbstract: 600–1000 words. Do not submit
+  the same paper as CSTIC.\nhttps://www.dvcon-china.org/Data/List/CallForA
+ bstracts\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:DEADLINE — DVCon China 2027 abstract
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DEADLINE — DVCon China 2027 abstract
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b10@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:DEADLINE — CSTIC Best Student Paper Award
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+STATUS:CONFIRMED
+URL:https://www.semiconchina.org/zh/52
+DESCRIPTION:Status: Optional · Only if CSTIC paper accepted\nEligibility 
+ depends on accepted CSTIC paper.\nhttps://www.semiconchina.org/zh/52\nRad
+ ar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:DEADLINE — CSTIC Best Student Paper Award
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DEADLINE — CSTIC Best Student Paper Award
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b11@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:DEADLINE — ICET 2027 paper
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+STATUS:CONFIRMED
+URL:https://icet.net/
+DESCRIPTION:Status: Considering\nhttps://icet.net/\nRadar Global · Oct 29
+ \, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:DEADLINE — ICET 2027 paper
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DEADLINE — ICET 2027 paper
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b12@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:RESULT — ICET 2027 (tentative)
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+STATUS:TENTATIVE
+URL:https://icet.net/
+DESCRIPTION:Status: Only if paper submitted\nhttps://icet.net/\nRadar Glob
+ al · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:RESULT — ICET 2027
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b13@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:RESULT — DVCon China 2027 (tentative)
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+STATUS:TENTATIVE
+URL:https://www.dvcon-china.org/Data/List/CallForAbstracts
+DESCRIPTION:Status: Only if abstract submitted\nhttps://www.dvcon-china.or
+ g/Data/List/CallForAbstracts\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:RESULT — DVCon China 2027
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b14@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:DEADLINE — PCIM Asia Shanghai 2027 abstract
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+STATUS:CONFIRMED
+URL:https://pcimasia-shanghai.cn.messefrankfurt.com/shanghai/en/programme-
+ events/pcim-asia-conference/call-for-paper.html
+DESCRIPTION:Status: Considering · Low priority\nhttps://pcimasia-shanghai
+ .cn.messefrankfurt.com/shanghai/en/programme-events/pcim-asia-conference/
+ call-for-paper.html\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P7D
+DESCRIPTION:DEADLINE — PCIM Asia Shanghai 2027 abstract
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:DEADLINE — PCIM Asia Shanghai 2027 abstract
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b15@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:CSTIC 2027 / SEMICON China — Shanghai (tentative)
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270324
+STATUS:TENTATIVE
+URL:https://www.semiconchina.org/en/6
+LOCATION:Shanghai\, China
+DESCRIPTION:Status: Submitted · Attendance depends on acceptance\nhttps:/
+ /www.semiconchina.org/en/6\nRadar Global · Oct 29\, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:CSTIC 2027 / SEMICON China — Shanghai
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b16@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:ICET 2027 — Chengdu (tentative)
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270518
+STATUS:TENTATIVE
+URL:https://icet.net/
+LOCATION:Chengdu\, China
+DESCRIPTION:Status: Considering\nhttps://icet.net/\nRadar Global · Oct 29
+ \, 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:ICET 2027 — Chengdu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:radar-b17@opportunity-atlas.local
+DTSTAMP:20261029T205509Z
+SUMMARY:PCIM Asia Shanghai 2027 (tentative)
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270827
+STATUS:TENTATIVE
+LOCATION:Shanghai\, China
+DESCRIPTION:Status: Considering · Low priority\nRadar Global · Oct 29\, 
+ 2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P1D
+DESCRIPTION:PCIM Asia Shanghai 2027
+END:VALARM
+END:VEVENT
+END:VCALENDAR

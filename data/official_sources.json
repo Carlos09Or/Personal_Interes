@@ -1,0 +1,9 @@
+[
+  {"id":"jiangnan","name":"Jiangnan University · Winter School","url":"https://ai.jiangnan.edu.cn/info/1022/2560.htm"},
+  {"id":"cern-openlab","name":"CERN openlab · Summer Programme","url":"https://openlab.cern/cern-openlab-summer-student-programme/"},
+  {"id":"mlh","name":"MLH Fellowship","url":"https://fellowship.mlh.com/"},
+  {"id":"outreachy","name":"Outreachy","url":"https://www.outreachy.org/"},
+  {"id":"kaust","name":"KAUST VSRP","url":"https://kpv.kaust.edu.sa/internship"},
+  {"id":"gsoc","name":"Google Summer of Code","url":"https://summerofcode.withgoogle.com/"},
+  {"id":"iclr","name":"ICLR","url":"https://iclr.cc/"}
+]

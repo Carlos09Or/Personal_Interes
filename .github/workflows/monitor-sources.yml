@@ -1,0 +1,28 @@
+name: Check official program pages
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 13 * * *'
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check curated public official sources
+        run: python scripts/check_sources.py
+      - name: Rebuild standalone site with latest checks
+        run: python build.py
+      - name: Commit public check report
+        run: |
+          git config user.name 'atlas-source-bot'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add index.html data/source-monitor-report.json data/source-monitor-state.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: record official source checks'
+            git push
+          fi
