@@ -1,1 +1,37 @@
-{}
+{
+  "jiangnan": {
+    "sha256": "3c4c1742a4e24550fe74acdfe6016295ef7488664c46ed6e8115a4b7b1b7fec0",
+    "last_successful_check": "2026-10-30T18:37:49+00:00",
+    "url": "https://ai.jiangnan.edu.cn/info/1022/2560.htm"
+  },
+  "cern-openlab": {
+    "sha256": "ede3dc786604c90ce3dfed5414f6eb6ce49e0cba1e18b69e6d2364ce42a23bd2",
+    "last_successful_check": "2026-10-30T18:37:49+00:00",
+    "url": "https://openlab.cern/cern-openlab-summer-student-programme/"
+  },
+  "mlh": {
+    "sha256": "7981dcc8a632f64131bcb0fbffbc8945c4b2e5dc860511280e189b715237a296",
+    "last_successful_check": "2026-10-30T18:37:49+00:00",
+    "url": "https://fellowship.mlh.com/"
+  },
+  "outreachy": {
+    "sha256": "cc1310924ea02319f6ece0ca996a33dc31df03cd843401f76b6b063340ff49d3",
+    "last_successful_check": "2026-10-30T18:37:49+00:00",
+    "url": "https://www.outreachy.org/"
+  },
+  "kaust": {
+    "sha256": "0895144b0e4cf148ab50ca8fe068c6e96c294c3caf6a27922c8f5376c0cbb5e6",
+    "last_successful_check": "2026-10-30T18:37:49+00:00",
+    "url": "https://kpv.kaust.edu.sa/internship"
+  },
+  "gsoc": {
+    "sha256": "949b9fde77cc272cf87a35f715674bf1afb5fa253b6a8075bc4a8a181d6835ea",
+    "last_successful_check": "2026-10-30T18:37:49+00:00",
+    "url": "https://summerofcode.withgoogle.com/"
+  },
+  "iclr": {
+    "sha256": "df58cfb2988294d911e8ad6154c64fbe1f1781f4ef984b242ccd7c7102552904",
+    "last_successful_check": "2026-10-30T18:37:49+00:00",
+    "url": "https://iclr.cc/"
+  }
+}
