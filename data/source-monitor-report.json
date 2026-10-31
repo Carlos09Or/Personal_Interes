@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:37:49+00:00",
+  "generated_at": "2026-10-31T17:42:56+00:00",
   "checked": 7,
   "changed": 0,
   "failed": 0,
@@ -8,50 +8,50 @@
       "id": "jiangnan",
       "name": "Jiangnan University · Winter School",
       "url": "https://ai.jiangnan.edu.cn/info/1022/2560.htm",
-      "last_checked": "2026-10-30T18:37:49+00:00",
-      "status": "baseline"
+      "last_checked": "2026-10-31T17:42:56+00:00",
+      "status": "unchanged"
     },
     {
       "id": "cern-openlab",
       "name": "CERN openlab · Summer Programme",
       "url": "https://openlab.cern/cern-openlab-summer-student-programme/",
-      "last_checked": "2026-10-30T18:37:49+00:00",
-      "status": "baseline"
+      "last_checked": "2026-10-31T17:42:56+00:00",
+      "status": "unchanged"
     },
     {
       "id": "mlh",
       "name": "MLH Fellowship",
       "url": "https://fellowship.mlh.com/",
-      "last_checked": "2026-10-30T18:37:49+00:00",
-      "status": "baseline"
+      "last_checked": "2026-10-31T17:42:56+00:00",
+      "status": "unchanged"
     },
     {
       "id": "outreachy",
       "name": "Outreachy",
       "url": "https://www.outreachy.org/",
-      "last_checked": "2026-10-30T18:37:49+00:00",
-      "status": "baseline"
+      "last_checked": "2026-10-31T17:42:56+00:00",
+      "status": "unchanged"
     },
     {
       "id": "kaust",
       "name": "KAUST VSRP",
       "url": "https://kpv.kaust.edu.sa/internship",
-      "last_checked": "2026-10-30T18:37:49+00:00",
-      "status": "baseline"
+      "last_checked": "2026-10-31T17:42:56+00:00",
+      "status": "unchanged"
     },
     {
       "id": "gsoc",
       "name": "Google Summer of Code",
       "url": "https://summerofcode.withgoogle.com/",
-      "last_checked": "2026-10-30T18:37:49+00:00",
-      "status": "baseline"
+      "last_checked": "2026-10-31T17:42:56+00:00",
+      "status": "unchanged"
     },
     {
       "id": "iclr",
       "name": "ICLR",
       "url": "https://iclr.cc/",
-      "last_checked": "2026-10-30T18:37:49+00:00",
-      "status": "baseline"
+      "last_checked": "2026-10-31T17:42:56+00:00",
+      "status": "unchanged"
     }
   ],
   "note": "A changed page is not proof of a new/open application. Confirm against the original announcement."
